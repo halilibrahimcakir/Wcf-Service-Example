@@ -33,12 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -97,20 +91,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WcfServer.Businees\WcfServer.Businees.csproj">
-      <Project>{8311cb35-0a17-4195-a59a-8abf70c02d7e}</Project>
-      <Name>WcfServer.Businees</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WcfServer.Data\WcfServer.Data.csproj">
-      <Project>{208abf07-c9aa-4be2-b3f1-4b6f87bd37a6}</Project>
-      <Name>WcfServer.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WcfServer.Dto\WcfServer.Dto.csproj">
-      <Project>{0f3cae30-55de-4bbe-b4be-c2a808aaa632}</Project>
-      <Name>WcfServer.Dto</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
