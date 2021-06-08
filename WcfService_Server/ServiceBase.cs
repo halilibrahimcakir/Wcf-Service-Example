@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace WcfService_Server
 {
     [ServiceContract]
-    public interface ServiceBase<T>
+    public interface ServiceBase<T> where T : class
     {
         [OperationContract]
         List<T> GetAll();
